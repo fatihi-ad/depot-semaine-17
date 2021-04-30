@@ -1,0 +1,114 @@
+/*********************************************************/
+/************** Page index/Tableau/Formulaire ************/
+/*********************************************************/
+
+
+@media all and (max-width:768px){
+    .lien {
+      display: flex;
+      flex-direction: column;
+    }
+    .span2 {
+      display: none;
+    }
+    body, p, h1, h2, .span1, .lien {
+        font-size: 100%;
+    }
+    .image2, .image {
+         max-width: 100%;
+         height: auto;
+    }
+    html {
+        margin : 78px auto;
+        width : 780px;
+    }
+    #container_tableau  { 
+        overflow-x: auto; 
+    }
+    
+}
+
+.lien {
+    
+    display: flex;
+    background-color: black;
+    color: white;
+    border: 20px solid black;
+    font-size: 15px; 
+    justify-content: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-block-end: inherit;
+}
+
+
+
+header{
+    display: inline-flex;
+}
+
+.span1 {
+    font-size: 40px;
+    margin-top: 80px;
+    position: relative; left:30%;
+}
+
+a:visited {
+    color: white;
+}
+
+h1 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+p {
+    font-size: 14px;
+    width: 700px;
+}
+
+
+.span2 {
+    background-color: rgb(206, 201, 201);
+    padding-bottom: 373px;
+    padding-top: 0px;
+    padding-right: 225px;
+    margin-right: 0px;
+    float: right;
+}
+
+html {
+    margin : 10px auto;
+    width : 1126px;
+}
+
+
+.image {
+    position: relative; left: 0%;
+  
+}
+
+
+.image2 {
+    position: relative; left: 0%;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-right: 250px;
+    margin-right: 0px;
+    
+  
+}
+
+html {
+        font-size: 100%;
+    }
+
+
